@@ -1,0 +1,15 @@
+#width{
+    width: 25rem;
+}
+@media(max-width: 576px){
+    #width{
+        width: 17em;
+    }
+}
+.img_cert{
+    height: 28vh;
+    border: solid 1px darkblue;
+}
+.card-link{
+    text-decoration: none;
+}
