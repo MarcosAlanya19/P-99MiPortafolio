@@ -1,0 +1,42 @@
+
+.icon_css{
+    font-size: 13rem;
+    margin: 1rem;
+    color: #759eff;
+    -webkit-text-stroke: 1px black;
+}
+.icon_html{
+    font-size: 13rem;
+    margin: 1rem;
+    color: #ffa43a;
+    -webkit-text-stroke: 1px black;
+}
+.icon_js{
+    font-size: 13rem;
+    margin: 1rem;
+    color: #edfd5a;
+    -webkit-text-stroke: 1px black;
+}
+.icon_java{
+    font-size: 13rem;
+    margin: 1rem;
+    color: #f86f6f;
+    -webkit-text-stroke: 1px black;
+}
+.icon_gh{
+    font-size: 13rem;
+    margin: 1rem;
+    color: #525558;
+    -webkit-text-stroke: 1px black;
+}
+.icon_bs{
+    font-size: 13rem;
+    margin: 1rem;
+    color: #7052ff;
+    -webkit-text-stroke: 1px black;
+}
+/* part2 */
+#height{
+    height: 29rem;
+    margin-bottom: 1rem;
+}

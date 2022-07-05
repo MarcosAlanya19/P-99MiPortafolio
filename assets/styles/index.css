@@ -8,14 +8,12 @@ body{
     background: linear-gradient(to left, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
 }
-
 /* Navegacion */
 #navbar{
     position: sticky;
     top: 0;
     z-index: 100;
 }
-/* container */
 .container{
     background-color: white;
 }
@@ -38,7 +36,7 @@ body{
         height: 40rem;
     }
 }
-.part1{
+.back{
     /* background-color: #BAB2CE; */
     background-color: #eeceed;
 }
@@ -46,97 +44,4 @@ body{
     display: flex;
     align-items: center;
     margin: 2rem;
-}
-.icon_css{
-    font-size: 13rem;
-    margin: 1rem;
-    color: #759eff;
-    -webkit-text-stroke: 1px black;
-}
-.icon_html{
-    font-size: 13rem;
-    margin: 1rem;
-    color: #ffa43a;
-    -webkit-text-stroke: 1px black;
-}
-.icon_js{
-    font-size: 13rem;
-    margin: 1rem;
-    color: #edfd5a;
-    -webkit-text-stroke: 1px black;
-}
-.icon_java{
-    font-size: 13rem;
-    margin: 1rem;
-    color: #f86f6f;
-    -webkit-text-stroke: 1px black;
-}
-.icon_gh{
-    font-size: 13rem;
-    margin: 1rem;
-    color: #525558;
-    -webkit-text-stroke: 1px black;
-}
-.icon_bs{
-    font-size: 13rem;
-    margin: 1rem;
-    color: #7052ff;
-    -webkit-text-stroke: 1px black;
-}
-/* part2 */
-#height{
-    height: 29rem;
-    margin-bottom: 1rem;
-}
-/* part3 */
-.footer{
-    display: flex;
-    background:#333;
-    padding: 1vw;
-    justify-content: center;
-    text-align: center;
-    color: white;
-}
-/* contacto */
-.input_group{
-    position: relative;
-}
-label{
-    position: absolute;
-    top: -30px;
-    left: -20px;
-    display: inline-flex;
-    column-gap: 10px;
-    align-items: center;
-    transition: transform .25s, opacity .25s;
-}
-.icon{
-    display: inline-flex;
-    opacity: 0;
-}
-.form-control:focus+label{
-    transform: translateX(26px);
-}
-.form-control:focus+label .icon{
-    opacity: 1;
-    transition-delay: .1s;
-}
-.form-control::placeholder{
-    transition: opacity .25s;
-}
-.form-control:focus::placeholder{
-    opacity: 0;
-}
-.fa-solid{
-    width: 1rem;
-}
-.inpu{
-    margin-top: 2rem;
-}
-.img-contac{
-    background-image: url(../img/contact.jpeg);
-    object-fit: contain;
-    background-size: cover;
-    width: 100%;
-    height: 31vh;
 }
